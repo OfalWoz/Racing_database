@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #333;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: bold;
+    transition: 0.3s;
+}
+
+form {
+    display:block;
+    width:300px;
+    }
+
+textarea {
+    display:block;
+    width:100%;
+    margin:auto;
+    box-sizing:border-box;
+} 
+    
+textarea{
+    width: 100%;
+    height: 300px; 
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 20px;
+    outline: none;
+}
+
+input, select, button {
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding: 5px 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+
+h2 {
+    clear:both;
+    }
+    
+table th,table td {
+    border:1px solid;
+    padding:5px;
+    }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    }
+
+input[type=button]:hover, input[type=submit]:hover{
+    color: green;
+    transition: 0.5s;
+    width: 80%;
+}
+
+button:hover {
+    color: green;
+    transition: 0.5s;
+    width: 80%;
+}
+
+a:hover {
+    color: green;
+    transition: 0.5s;
+    width: 80%;
+}
